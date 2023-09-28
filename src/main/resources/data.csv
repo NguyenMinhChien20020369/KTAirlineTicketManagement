@@ -1,0 +1,9 @@
+age,	seatClass,	expectedOutput
+-50,	Economy,	Invalid input!
+1,	Economy,	100.000 VND/ticket & Not providing entertainment services!
+7,	Economy,	1.500.000 VND/ticket & Not providing entertainment services!
+60,	Economy,	1.700.000 VND/ticket & Not providing entertainment services!
+-50,	Business,	Invalid input!
+1,	Business,	300.000 VND/ticket & Provide entertainment services!
+7,	Business,	3.500.000 VND/ticket & Provide entertainment services!
+60,	Business,	4.000.000 VND/ticket & Provide entertainment services!
