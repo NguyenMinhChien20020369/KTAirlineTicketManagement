@@ -17,4 +17,10 @@ public class MainTest {
   void testC2(int age, String seatClass, String expectedOutput) {
     assertEquals(Main.buyAirlineTicket(age, seatClass), expectedOutput);
   }
+
+  @ParameterizedTest
+  @CsvFileSource(resources = "/DataAllUses.csv", numLinesToSkip = 1)
+  void testAllUses(int age, String seatClass, String expectedOutput) {
+    assertEquals(Main.buyAirlineTicket(age, seatClass), expectedOutput);
+  }
 }
